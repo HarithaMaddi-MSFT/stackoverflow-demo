@@ -1,0 +1,22 @@
+name: latest_demo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.7
+  - ipykernel
+  - notebook
+
+  - pip:
+    - azureml-sdk[notebooks,automl]
+    - azure-cli
+    - tensorflow==2.2.0
+    - sklearn
+    - pandas
+    - matplotlib
+    - pyspark
+    - numpy
+    - pandas_profiling
+    - transformers
+    - horovod

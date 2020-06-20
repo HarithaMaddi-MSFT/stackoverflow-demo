@@ -1,0 +1,6 @@
+azureml-sdk[explain,automl,contrib,notebooks,tensorboard]
+tensorflow
+keras
+transformers
+matplotlib
+pandas_profiling
